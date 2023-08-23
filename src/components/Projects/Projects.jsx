@@ -6,8 +6,8 @@ import "./Projects.css";
 export default function Projects() {
   return (
     <>
-      <div className="project-container">
-        <h2>Projects</h2>
+      <div id="projects" className="project-container">
+        <h2 className="title">Projects</h2>
         <a
           href="https://yourspotifystats-039c385e1540.herokuapp.com/"
           target="_blank"

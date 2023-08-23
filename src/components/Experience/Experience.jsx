@@ -2,8 +2,10 @@ import "./Experience.css";
 
 export default function Experiece() {
   return (
-    <div className="experience-container">
-      <h2 style={{marginBottom: "0px"}}>Experiences</h2>
+    <div id="experience" className="experience-container">
+      <h2 className="title" style={{ marginBottom: "0px" }}>
+        Experiences
+      </h2>
       <a
         href="https://www.swimsuitsforall.com/"
         target="_blank"

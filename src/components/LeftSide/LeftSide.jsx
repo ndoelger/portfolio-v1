@@ -6,7 +6,9 @@ import "./LeftSide.css";
 export default function LeftSide() {
   return (
     <div>
-      <h2>About</h2>
+      <h2 className="title" id="about">
+        About
+      </h2>
 
       <p>
         Imagine if software had a personality – that's what I bring to the

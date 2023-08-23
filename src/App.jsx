@@ -15,24 +15,50 @@ export default function App() {
     btnRef.current.style.setProperty("--y", y + "px");
   };
 
+  function activeNav() {}
+
   return (
     <main className="App" ref={btnRef} onMouseMove={handleMouseMove}>
       <div className="content-container">
         <div className="headers">
           <h1>Nic Doelger</h1>
           <h2>Software Engineer</h2>
-          <a
-            href="https://github.com/ndoelger"
-            target="_blank"
-            rel="noreferrer">
-            <img src={GitHub} alt="" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/nicdoelger/"
-            target="_blank"
-            rel="noreferrer">
-            <img src={LinkedIn} alt="" />
-          </a>
+          <div className="nav-links">
+            <a href="#about">
+              <span className="line"></span>
+              <span>
+                <h2>ABOUT</h2>
+              </span>
+            </a>
+            <br />
+            <a href="#experience">
+              <span className="line"></span>
+              <span>
+                <h2>EXPERIENCE</h2>
+              </span>
+            </a>
+            <br />
+            <a href="#projects">
+            <span className="line"></span>
+            <span>
+              <h2>PROJECTS</h2>
+            </span>
+            </a>
+          </div>
+          <div className="social-links">
+            <a
+              href="https://github.com/ndoelger"
+              target="_blank"
+              rel="noreferrer">
+              <img src={GitHub} alt="" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nicdoelger/"
+              target="_blank"
+              rel="noreferrer">
+              <img src={LinkedIn} alt="" />
+            </a>
+          </div>
         </div>
         <div className="left-side">
           <LeftSide />
@@ -40,21 +66,4 @@ export default function App() {
       </div>
     </main>
   );
-}
-
-{
-  /* <span className="line"></span>
-<span>
-  <h2>ABOUT</h2>
-</span>
-<br />
-<span className="line"></span>
-<span>
-  <h2>EXPERIENCE</h2>
-</span>
-<br />
-<span className="line"></span>
-<span>
-  <h2>PROJECTS</h2>
-</span> */
 }

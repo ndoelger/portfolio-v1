@@ -15,20 +15,20 @@
 
 h1 {
   font-family: "Gotham Medium";
-  color: rgba(255, 255, 255, .8);
+  color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0;
 }
 
 h2 {
   font-family: "Gotham Book";
   width: fit-content;
-  color: rgba(255, 255, 255, .8);
+  color: rgba(255, 255, 255, 0.8);
   margin-top: 10px;
 }
 
 p {
   font-family: "Gotham Light";
-  color: rgba(255, 255, 255, .7);
+  color: rgba(255, 255, 255, 0.7);
   font-size: 20px;
   width: 10%;
 }
@@ -53,12 +53,12 @@ p {
   width: 45px;
   margin-top: 0;
   margin-right: 20px;
-  opacity: .6;
-  transition: .2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  opacity: 0.6;
+  transition: 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
 .headers img:hover {
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .left-side {
@@ -71,7 +71,7 @@ p {
 }
 
 .line {
-  width: 40px;
+  width: 20px;
   height: 2px;
   background: white;
   /* border: 12px solid black; */
@@ -116,12 +116,6 @@ p {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -137,19 +131,46 @@ p {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 a {
   text-decoration: none;
 }
 
 body {
   background-color: #10182a;
+}
+
+@media (min-width: 950px) {
+  .content-container {
+    flex-direction: row;
+  }
+  .headers {
+    position: fixed;
+    height: 100vh;
+    width: 40vw;
+    max-width: 800px;
+  }
+
+  .social-links {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+  }
+
+  .left-side {
+    width: 50%;
+  }
+
+  .project {
+    width: 90%;
+  }
+
+  .nav-links {
+    font-size: 20px;
+  }
+
+  .title {
+    opacity: 0;
+    position: absolute;
+    top: -50px;
+  }
 }
