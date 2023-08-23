@@ -1,6 +1,6 @@
 import "./App.css";
 import LeftSide from "./components/LeftSide/LeftSide";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import GitHub from "./logos/GitHub2.png";
 import LinkedIn from "./logos/174857.png";
 
@@ -15,7 +15,39 @@ export default function App() {
     btnRef.current.style.setProperty("--y", y + "px");
   };
 
-  function activeNav() {}
+  const [aboutClick, setAboutClick] = useState(true);
+  const [experienceClick, setExperienceClick] = useState(false);
+  const [projectsClick, setProjectsClick] = useState(false);
+
+  function handleAboutClick() {
+    setAboutClick(true);
+    setExperienceClick(false);
+    setProjectsClick(false);
+  }
+
+  function handleExperienceClick() {
+    setAboutClick(false);
+    setExperienceClick(true);
+    setProjectsClick(false);
+  }
+  function handleProjectsClick() {
+    setAboutClick(false);
+    setExperienceClick(false);
+    setProjectsClick(true);
+  }
+
+  const activeAbout = {
+    width: aboutClick ? "100px" : "20px",
+    opacity: aboutClick ? "1" : ".6",
+  };
+  const activeExperience = {
+    width: experienceClick ? "100px" : "20px",
+    opacity: experienceClick ? "1" : ".6",
+  };
+  const activeProjects = {
+    width: projectsClick ? "100px" : "20px",
+    opacity: projectsClick ? "1" : ".6",
+  };
 
   return (
     <main className="App" ref={btnRef} onMouseMove={handleMouseMove}>
@@ -24,25 +56,27 @@ export default function App() {
           <h1>Nic Doelger</h1>
           <h2>Software Engineer</h2>
           <div className="nav-links">
-            <a href="#about">
-              <span className="line"></span>
+            <a href="#about" onClick={handleAboutClick}>
+              <span style={activeAbout} className="line"></span>
+              <h2 style={{ opacity: aboutClick ? "1" : ".6" }}>ABOUT</h2>
+            </a>
+            <br />
+            <a href="#experience" onClick={handleExperienceClick}>
+              <span style={activeExperience} className="line"></span>
               <span>
-                <h2>ABOUT</h2>
+                <h2 style={{ opacity: experienceClick ? "1" : ".6" }}>
+                  EXPERIENCE
+                </h2>
               </span>
             </a>
             <br />
-            <a href="#experience">
-              <span className="line"></span>
+            <a href="#projects" onClick={handleProjectsClick}>
+              <span style={activeProjects} className="line"></span>
               <span>
-                <h2>EXPERIENCE</h2>
+                <h2 style={{ opacity: projectsClick ? "1" : ".6" }}>
+                  PROJECTS
+                </h2>
               </span>
-            </a>
-            <br />
-            <a href="#projects">
-            <span className="line"></span>
-            <span>
-              <h2>PROJECTS</h2>
-            </span>
             </a>
           </div>
           <div className="social-links">

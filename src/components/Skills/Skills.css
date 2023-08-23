@@ -29,9 +29,8 @@
   scale: 1.25;
 }
 
-.skill:hover .logo{
+.skill:hover .logo {
   box-shadow: 0 0 15px 0px rgba(255, 255, 255, 0.25);
-
 }
 
 .skill h1 {
@@ -52,23 +51,18 @@
   margin-bottom: 30px;
 }
 
-/* @-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
+@media (min-width: 950px) {
+  .logo {
+    width: 90px;
+    height: 90px;
   }
-  100% {
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+  .skill-container {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .logo img {
+    width: 58px;
+    height: 58px;
   }
 }
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  100% {
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-  }
-} */
