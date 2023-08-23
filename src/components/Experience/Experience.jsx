@@ -3,7 +3,7 @@ import "./Experience.css";
 export default function Experiece() {
   return (
     <div className="experience-container">
-      <h2>Experiences</h2>
+      <h2 style={{marginBottom: "0px"}}>Experiences</h2>
       <a
         href="https://www.swimsuitsforall.com/"
         target="_blank"

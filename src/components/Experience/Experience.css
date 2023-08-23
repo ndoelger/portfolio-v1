@@ -6,12 +6,31 @@
 .experience {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 35px;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-right: 10px;
+  transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.experience:first-of-type {
+  margin-top: 15px;
 }
 
 .experience h1 {
   margin-top: 0;
   font-size: 30px;
+  transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.experience:hover {
+  -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.experience:hover h1 {
+  color: #55d5a8;
 }
 
 .experience p {
@@ -47,4 +66,61 @@
 
 .view-resume {
   margin-top: 10px;
+  transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
+
+.view-resume:hover {
+  color: #55d5a8;
+}
+
+/* 
+@-webkit-keyframes shadow-inset-center {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+@keyframes shadow-inset-center {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+@-webkit-keyframes shadow-outset-center {
+  0% {
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    -webkit-box-shadow: outset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: outset 0 0 0 0 rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+@keyframes shadow-outset-center {
+  0% {
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    -webkit-box-shadow: outset 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: outset 0 0 0 0 rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+  }
+} */

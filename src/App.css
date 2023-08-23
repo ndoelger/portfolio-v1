@@ -15,20 +15,20 @@
 
 h1 {
   font-family: "Gotham Medium";
-  color: white;
+  color: rgba(255, 255, 255, .8);
   margin-bottom: 0;
 }
 
 h2 {
   font-family: "Gotham Book";
   width: fit-content;
-  color: white;
+  color: rgba(255, 255, 255, .8);
   margin-top: 10px;
 }
 
 p {
   font-family: "Gotham Light";
-  color: white;
+  color: rgba(255, 255, 255, .7);
   font-size: 20px;
   width: 10%;
 }
@@ -43,6 +43,22 @@ p {
 
 .headers span {
   display: inline-block;
+}
+
+.headers h2 {
+  margin-bottom: 20px;
+}
+
+.headers img {
+  width: 45px;
+  margin-top: 0;
+  margin-right: 20px;
+  opacity: .6;
+  transition: .2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.headers img:hover {
+  opacity: .9;
 }
 
 .left-side {
