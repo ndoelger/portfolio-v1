@@ -1,5 +1,5 @@
 import Portfolio from "../../projects/Screenshot 2023-08-02 at 11.16.37 AM.jpg";
-import Inventory from "../../projects/Screenshot 2023-08-02 at 11.17.15 AM.jpg";
+import NicEats from "../../projects/Nic-Eats.png";
 import Spotify from "../../projects/Spotify.jpg";
 import "./Projects.css";
 
@@ -43,18 +43,19 @@ export default function Projects() {
           </div>
         </a>
         <a
-          href="https://sei-inventory-manager-c8b2fde1ac37.herokuapp.com/"
+          href="https://nic-eats-f19d8b609888.herokuapp.com/"
           target="_blank"
           rel="noreferrer">
           <div className="project">
-            <img src={Inventory} alt="" />
+            <img src={NicEats} alt="" />
             <div className="project-column">
-              <h1>Inventory Manager</h1>
+              <h1>Nic Eats</h1>
               <p>
-                Register and remember your store items with the ability to CRUD
-                JSON objects using API routes/services, MVC architecture, and
-                JWT for user authentication and linking user data with
-                many-to-one relationships.
+                A familiar food delivery service to make unique orders and
+                access order history. Register and remember your orders with the
+                ability to CRUD JSON objects using API routes/services, MVC
+                architecture, and JWT for user authentication and linking user
+                data.
               </p>
               <span>
                 <h2>MongoDB</h2>
