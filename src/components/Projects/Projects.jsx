@@ -72,10 +72,7 @@ export default function Projects() {
             </div>
           </div>
         </a>
-        <a
-          href="https://nic-doelger.netlify.app/"
-          target="_blank"
-          rel="noreferrer">
+        <a href="https://www.nicdoelger.work/" target="_blank" rel="noreferrer">
           <div className="project">
             <img src={Portfolio} alt="" />
             <div className="project-column">
