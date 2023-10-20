@@ -1,6 +1,7 @@
 import Portfolio from "../../projects/Screenshot 2023-08-02 at 11.16.37 AM.jpg";
 import NicEats from "../../projects/Nic-Eats.png";
 import Spotify from "../../projects/Spotify.jpg";
+import BeanEnsemble from "../../projects/bean-ensemble-online.preview-domain.com_.png";
 import "./Projects.css";
 
 export default function Projects() {
@@ -8,6 +9,33 @@ export default function Projects() {
     <>
       <div id="projects" className="project-container">
         <h2 className="title">Projects</h2>
+        <a
+          href="https://bean-ensemble-online.preview-domain.com/"
+          target="_blank"
+          rel="noreferrer">
+          <div className="project">
+            <img src={BeanEnsemble} alt="" />
+            <div className="project-column">
+              <h1>BeanEnsemble</h1>
+              <p>
+                A landing page for a coffee subscription service with user
+                interaction and compelling styling.
+              </p>
+              <span>
+                <h2>React</h2>
+              </span>
+              <span>
+                <h2>Tailwind CSS</h2>
+              </span>
+              <span>
+                <h2>Node.js</h2>
+              </span>
+              <span>
+                <h2>JavaScript</h2>
+              </span>
+            </div>
+          </div>
+        </a>
         <a
           href="https://yourspotifystats-039c385e1540.herokuapp.com/"
           target="_blank"
