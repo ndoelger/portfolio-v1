@@ -10,7 +10,7 @@ export default function Projects() {
       <div id="projects" className="project-container">
         <h2 className="title">Projects</h2>
         <a
-          href="https://bean-ensemble-online.preview-domain.com/"
+          href="https://bean-ensemble.online"
           target="_blank"
           rel="noreferrer">
           <div className="project">
