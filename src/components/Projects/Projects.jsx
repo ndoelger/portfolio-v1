@@ -2,6 +2,7 @@ import Portfolio from "../../projects/Screenshot 2023-08-02 at 11.16.37 AM.jpg";
 import NicEats from "../../projects/Nic-Eats.png";
 import Spotify from "../../projects/Spotify.jpg";
 import BeanEnsemble from "../../projects/bean-ensemble-online.preview-domain.com_.png";
+import PromptSwap from "../../projects/prompt-swap-ifkt86xmx-nic-doelgers-projects.vercel.app_.png";
 import "./Projects.css";
 
 export default function Projects() {
@@ -9,29 +10,37 @@ export default function Projects() {
     <>
       <div id="projects" className="project-container">
         <h2 className="title">Projects</h2>
+
         <a
-          href="https://bean-ensemble.online"
+          href="https://prompt-swap.vercel.app/"
           target="_blank"
           rel="noreferrer">
           <div className="project">
-            <img src={BeanEnsemble} alt="" />
+            <img src={PromptSwap} alt="" />
             <div className="project-column">
-              <h1>BeanEnsemble</h1>
+              <h1>Prompt Swap</h1>
               <p>
-                A landing page for a coffee subscription service with user
-                interaction and compelling styling.
+                Discover and share AI-Powered prompts to ignite engaging
+                conversations, inspire creativity, and foster collaborative
+                thinking.
               </p>
+              <span>
+                <h2>Next.js</h2>
+              </span>
+              <span>
+                <h2>NextAuth</h2>
+              </span>
               <span>
                 <h2>React</h2>
               </span>
               <span>
+                <h2>Redux</h2>
+              </span>
+              <span>
+                <h2>Node</h2>
+              </span>
+              <span>
                 <h2>Tailwind CSS</h2>
-              </span>
-              <span>
-                <h2>Node.js</h2>
-              </span>
-              <span>
-                <h2>JavaScript</h2>
               </span>
             </div>
           </div>
@@ -47,7 +56,8 @@ export default function Projects() {
               <p>
                 Authorize your Spotify account to provide instant access to your
                 playlists, top tracks, and favorite artists from Spotify's API
-                database.
+                database. NOTE: This app is currently in demo; please contact
+                doelgern@gmail.com for API access.
               </p>
               <span>
                 <h2>React</h2>
@@ -96,6 +106,30 @@ export default function Projects() {
               </span>
               <span>
                 <h2>Node</h2>
+              </span>
+            </div>
+          </div>
+        </a>
+        <a href="https://bean-ensemble.online" target="_blank" rel="noreferrer">
+          <div className="project">
+            <img src={BeanEnsemble} alt="" />
+            <div className="project-column">
+              <h1>BeanEnsemble</h1>
+              <p>
+                A landing page for a coffee subscription service with user
+                interaction and compelling styling.
+              </p>
+              <span>
+                <h2>React</h2>
+              </span>
+              <span>
+                <h2>Tailwind CSS</h2>
+              </span>
+              <span>
+                <h2>Node.js</h2>
+              </span>
+              <span>
+                <h2>JavaScript</h2>
               </span>
             </div>
           </div>

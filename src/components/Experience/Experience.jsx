@@ -15,7 +15,7 @@ export default function Experiece() {
             <h2 className="years">2022 - 2023</h2>
           </div>
           <div className="experience-details">
-            <h1>UX & Digital Designer • JBC</h1>
+            <h1>UX/UI & Digital Designer • JBC</h1>
             <h2>New York, NY</h2>
             <p>
               I designed creative pieces for corporate email, web, and UX/UI by
