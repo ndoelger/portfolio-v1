@@ -3,6 +3,8 @@ import NicEats from "../../projects/Nic-Eats.png";
 import Spotify from "../../projects/Spotify.jpg";
 import BeanEnsemble from "../../projects/bean-ensemble-online.preview-domain.com_.png";
 import PromptSwap from "../../projects/prompt-swap-ifkt86xmx-nic-doelgers-projects.vercel.app_.png";
+import Kndrd from "../../projects/www.kndrd.com_.png";
+import Seried from "../../projects/theseriesny.com_.png";
 import "./Projects.css";
 
 export default function Projects() {
@@ -11,6 +13,66 @@ export default function Projects() {
       <div id="projects" className="project-container">
         <h2 className="title">Projects</h2>
 
+        <a href="https://theseriesny.com/" target="_blank" rel="noreferrer">
+          <div className="project">
+            <img src={Seried} alt="" />
+            <div className="project-column">
+              <h1>THE SERIES NY</h1>
+              <p>
+                THE SERIES is a New York based brand of ethically made clothing
+                and accessories.
+              </p>
+              <span>
+                <h2>MongoDB</h2>
+              </span>
+              <span>
+                <h2>Express</h2>
+              </span>
+              <span>
+                <h2>React</h2>
+              </span>
+              <span>
+                <h2>Node</h2>
+              </span>
+              <span>
+                <h2>PostgreSQL</h2>
+              </span>
+              <span>
+                <h2>REST API</h2>
+              </span>
+            </div>
+          </div>
+        </a>
+        <a href="https://www.kndrd.com/" target="_blank" rel="noreferrer">
+          <div className="project">
+            <img src={Kndrd} alt="" />
+            <div className="project-column">
+              <h1>Kndrd</h1>
+              <p>
+                Kndrd is friendshipping through shared experiences. Explore you
+                city, explore your circle, explore connections.
+              </p>
+              <span>
+                <h2>React</h2>
+              </span>
+              <span>
+                <h2>Node</h2>
+              </span>
+              <span>
+                <h2>Tailwind CSS</h2>
+              </span>
+              <span>
+                <h2>jQuery</h2>
+              </span>
+              <span>
+                <h2>API</h2>
+              </span>
+              <span>
+                <h2>SQL</h2>
+              </span>
+            </div>
+          </div>
+        </a>
         <a
           href="https://prompt-swap.vercel.app/"
           target="_blank"

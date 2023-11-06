@@ -6,26 +6,28 @@ export default function Experiece() {
       <h2 className="title" style={{ marginBottom: "0px" }}>
         Experiences
       </h2>
-      <a
-        href="https://www.swimsuitsforall.com/"
-        target="_blank"
-        rel="noreferrer">
+      <a href="https://www.catherines.com/" target="_blank" rel="noreferrer">
         <div className="experience">
           <div className="years-container">
-            <h2 className="years">2022 - 2023</h2>
+            <h2 className="years">2022 - PRESENT</h2>
           </div>
           <div className="experience-details">
-            <h1>UX/UI & Digital Designer • JBC</h1>
+            <h1>Software Engineer I/Frontend UI Developer • JBC</h1>
             <h2>New York, NY</h2>
             <p>
-              I designed creative pieces for corporate email, web, and UX/UI by
-              implementing client requests, common trends, and analyzing
-              performances to generate over $300M in annual revenue.
-              Additionally, I developed and encoded digital assets and emails
-              for marketing campaigns, resulting in a 20% increase in
-              click-through rates. I also coordinated video projects and aided
-              in post-production, ensuring 100% on-time delivery of all
-              projects.
+              I engineered and optimized frontend components utilizing modern
+              technologies like React.js, HTML5, CSS3, and JavaScript to create
+              a visually appealing and intuitive user interface, resulting in a
+              20% improvement in page load times and a 15% increase in
+              conversion rates. Additionally, I implemented responsive and
+              user-friendly UI/UX designs to ensure seamless shopping
+              experiences across both desktop and mobile platforms, leading to a
+              remarkable 25% increase in mobile sales. Furthermore, I
+              collaborated closely with backend developers to seamlessly
+              integrate and optimize e-commerce functionalities and API
+              endpoints, encompassing payment processing, inventory management,
+              and order fulfillment, ultimately delivering a seamless and
+              efficient shopping experience for customers.
             </p>
           </div>
         </div>
@@ -36,45 +38,44 @@ export default function Experiece() {
         rel="noreferrer">
         <div className="experience">
           <div className="years-container">
-            <h2 className="years">2020 - 2022</h2>
+            <h2 className="years">2021 - 2022</h2>
           </div>
           <div className="experience-details">
-            <h1>Digital Design & Content Manager • Community & Content</h1>
+            <h1>Creative Technologist • Community & Content</h1>
             <h2>New York, NY</h2>
             <p>
-              I produced creative briefs and storyboards for clients,
-              facilitating the development of marketing and promotional
-              campaigns that led to significant brand awareness growth in both
-              B2C and B2B sales. Furthermore, my efforts in developing and
-              revitalizing digital wireframes for marketing campaigns resulted
-              in an impressive 30% surge in website traffic. In addition, I
-              provided supervision and guidance to marketing coordinators,
-              creating a collaborative and productive work environment that
-              maintained a perfect record of 100% timely execution for all
-              design initiatives.
+              I leveraged HTML5, CSS3, and JavaScript to create custom
+              interactive features, elevating the overall user experience and
+              leading to a notable 30% surge in website engagement.
+              Additionally, I designed captivating assets using Adobe Creative
+              Suite, integrating Bootstrap, Tailwind CSS, SaaS, and jQuery for
+              interactive elements, resulting in an impressive 25% increase in
+              user engagement. Furthermore, I employed Adobe XD and Figma for
+              prototyping, coupled with React and Git for web development, and
+              seamlessly integrated animation and interaction libraries such as
+              GSAP to craft dynamic and immersive digital experiences.
             </p>
           </div>
         </div>
         <div className="experience">
           <div className="years-container">
-            <h2 className="years">2019 - 2020</h2>
+            <h2 className="years">2020 - 2021</h2>
           </div>
           <div className="experience-details">
             <h1>Marketing Coordinator • Community & Content</h1>
             <h2>New York, NY</h2>
             <p>
-              I suggested original design and strategic branding ideas by
-              utilizing quantitative analytic portals and conducting
-              observational analyses of digital marketing tactics, resulting in
-              a remarkable 40% increase in brand recognition. Additionally, I
-              successfully cultivated targeted audiences for marketing
-              campaigns, aligning strategies with specific demographics and
-              brand guidelines, which led to an impressive 70% surge in customer
-              engagement. Moreover, I skillfully crafted on-brand descriptions,
-              blogs, and newsletters for various brands. This involved employing
-              keyword planners to ensure the verbiage was effective for both
-              user engagement and organic SEO, ultimately resulting in a
-              substantial 60% increase in organic search traffic.
+              I executed and managed marketing campaigns using data-driven
+              strategies, incorporating insights gleaned from SQL data analysis,
+              and leveraging tools like Google Analytics and SEO techniques to
+              refine audience targeting and messaging. Additionally, I employed
+              content management systems (CMS) like WordPress to effectively
+              update and manage website content, resulting in a notable 20%
+              increase in organic search visibility. Furthermore, I analyzed
+              heatmap and user behavior data through tools like Hotjar to gain
+              valuable insights into user behavior on the website. This led to
+              well-informed design decisions and an impressive 50% improvement
+              in overall user satisfaction scores.
             </p>
           </div>
         </div>
