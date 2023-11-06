@@ -15,15 +15,15 @@ export default function Experiece() {
             <h1>Software Engineer I/Frontend UI Developer • JBC</h1>
             <h2>New York, NY</h2>
             <p>
-              I engineered and optimized frontend components utilizing modern
+              I engineer and optimize frontend components utilizing modern
               technologies like React.js, HTML5, CSS3, and JavaScript to create
               a visually appealing and intuitive user interface, resulting in a
               20% improvement in page load times and a 15% increase in
-              conversion rates. Additionally, I implemented responsive and
+              conversion rates. Additionally, I implement responsive and
               user-friendly UI/UX designs to ensure seamless shopping
               experiences across both desktop and mobile platforms, leading to a
               remarkable 25% increase in mobile sales. Furthermore, I
-              collaborated closely with backend developers to seamlessly
+              collaborate closely with backend developers to seamlessly
               integrate and optimize e-commerce functionalities and API
               endpoints, encompassing payment processing, inventory management,
               and order fulfillment, ultimately delivering a seamless and
