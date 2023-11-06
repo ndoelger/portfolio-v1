@@ -10,6 +10,9 @@ import Mongo from "../../logos/Mongo.png";
 import node from "../../logos/node.png";
 import Python from "../../logos/Python.png";
 import React from "../../logos/React.png";
+import C from "../../logos/C.png"
+import SQL from "../../logos/SQL.png";
+import Java from "../../logos/Java.png";
 import "./Skills.css";
 
 export default function Skills() {
@@ -33,11 +36,29 @@ export default function Skills() {
       </div>
       <h1>JavaScript</h1>
     </div>
+    {/* <div className="skill">
+      <div className="logo">
+        <img src={C} alt="" />
+      </div>
+      <h1>C#</h1>
+    </div> */}
+    {/* <div className="skill">
+      <div className="logo">
+        <img src={Java} alt="" />
+      </div>
+      <h1>Java</h1>
+    </div> */}
     <div className="skill">
       <div className="logo">
         <img src={Python} alt="" />
       </div>
       <h1>Python</h1>
+    </div>
+    <div className="skill">
+      <div className="logo">
+        <img src={SQL} alt="" />
+      </div>
+      <h1>SQL</h1>
     </div>
     <div className="skill">
       <div className="logo">
@@ -69,12 +90,12 @@ export default function Skills() {
       </div>
       <h1>Express</h1>
     </div>
-    <div className="skill">
+    {/* <div className="skill">
       <div className="logo">
         <img src={GitHub} alt="" />
       </div>
       <h1>GitHub</h1>
-    </div>
+    </div> */}
     <div className="skill">
       <div className="logo">
         <img src={adobe} alt="" />
