@@ -201,7 +201,7 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600) {
   .content-container {
     width: 28rem;
   }

@@ -69,7 +69,7 @@
   transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .experience {
    padding-left: 1px;
    width: 390px;
