@@ -123,7 +123,7 @@ a{
   padding-top: 10px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 570px) {
   .project{
     padding-left: 1px;
   }
