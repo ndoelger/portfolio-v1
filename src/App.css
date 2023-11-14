@@ -195,9 +195,20 @@ body {
     opacity: 0;
     position: absolute;
     top: -50px;
+  }
+  .experience-container {
+    width: 100%;
+  }
+}
 
-    .experienc-container {
-      width: 100%;
-    }
+@media (max-width: 400px) {
+  .content-container {
+    width: 28rem;
+  }
+  .left-side p {
+    width: 20em;
+  }
+  html {
+    width: 100%;
   }
 }
